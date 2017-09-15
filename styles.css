@@ -17,11 +17,10 @@
   width: 100vw;
 }
 
+
 .header-content {
-  top: 38%;
-  left: 56%;
+  margin-top: 250px;
   position: relative;
-  width: 410px;
 }
 
 .header-sub {
@@ -61,8 +60,8 @@ h1 {
 }
 
 .arrow-wrap {
-  left: 50%;
-  position: relative;
+/*  position: relative;*/
+text-align: center;
 }
 
 .arrow {
