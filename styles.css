@@ -60,6 +60,15 @@ h1 {
   cursor: pointer;
 }
 
+.arrow-wrap {
+  left: 50%;
+  position: relative;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 20px;
+}
 
 
 
