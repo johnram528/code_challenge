@@ -39,6 +39,10 @@ h1 {
   font-size: 48px;
 }
 
+h2, h3 {
+  color: #4C6176
+}
+
 .bold {
   font-weight: 700;
 }
@@ -74,10 +78,6 @@ h1 {
   cursor: pointer;
 }
 
-.arrow:hover {
-  fill: #c6f6ff;
-}
-
 .abc-main-content {
   height: 100vh;
 }
@@ -106,8 +106,16 @@ body
   border: none;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#4C6176' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+}
+
 .navbar-toggler {
   cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  color: #4C6176;
 }
 
 .abc-second-header {
@@ -149,7 +157,7 @@ li {
 
 .abc-footer {
   text-align: center;
-  color: #273D57;
+  color: #4C6176;
 }
 
 .footer-title {
@@ -159,6 +167,7 @@ li {
 a {
   color: #4C6176;
 }
+
 
 
 
