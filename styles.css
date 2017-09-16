@@ -86,3 +86,22 @@ h1 {
   height: 50vh;
 }
 
+body
+{
+  overflow-x: hidden; /* Get rid of extra white space on right side of the page */
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.abc-second-header {
+  text-align: center;
+  margin-top: 95px;
+  color: #4C6176;
+}
+
+.image-wrap > img {
+  margin-top: 30px;   
+  width: 100%;
+}
