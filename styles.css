@@ -59,6 +59,11 @@ h1 {
   cursor: pointer;
 }
 
+.header-button:hover {
+  border-color: #c6f6ff;
+  color: #c6f6ff;
+}
+
 .arrow-wrap {
   text-align: center;
 }
@@ -67,6 +72,10 @@ h1 {
   position: fixed;
   bottom: 20px;
   cursor: pointer;
+}
+
+.arrow:hover {
+  fill: #c6f6ff;
 }
 
 .abc-main-content {
