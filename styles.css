@@ -66,6 +66,7 @@ h1 {
 .arrow {
   position: fixed;
   bottom: 20px;
+  cursor: pointer;
 }
 
 .abc-main-content {
@@ -94,6 +95,10 @@ body
 
 .navbar-light .navbar-toggler {
   border: none;
+}
+
+.navbar-toggler {
+  cursor: pointer;
 }
 
 .abc-second-header {
@@ -127,5 +132,23 @@ body
       left: 76%;
   }
 }
+
+li {
+  list-style: none;
+}
+
+.abc-footer {
+  text-align: center;
+  color: #273D57;
+}
+
+.footer-title {
+  color: #4C6176
+}
+
+a {
+  color: #4C6176;
+}
+
 
 
